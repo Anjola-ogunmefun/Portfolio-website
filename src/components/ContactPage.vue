@@ -119,20 +119,18 @@
 }
 main {
   background-image: url("../utils/dark.jpg");
-  /* position: relative; */
   width: 100vw;
   height: 100vh;
   background-repeat: repeat;
   background-position: center;
   background-size: cover;
-  /* box-shadow:inset 0 0 0 2000px rgba(15, 1, 9,0.1);   */
 }
 .contact {
   padding: 40px;
   color: white;
 }
 .message {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 20px;
   text-align: center;
 }
@@ -158,7 +156,7 @@ p {
 
 .route {
   margin-left: 20px;
-  margin-top: 100px;
+  margin-top: 30px;
   margin-bottom: 50px   ;
   color: yellow;
   font-size: larger;
