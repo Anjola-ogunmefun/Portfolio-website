@@ -81,17 +81,15 @@ export default {
   },
   methods: {
     appendWords() {
-      const it = this.about[Symbol.iterator](); // convenient for yeilding values
+      const it = this.about[Symbol.iterator]();
       const int = setInterval(() => {
-        // time interval
-        const next = it.next(); // next value
+        const next = it.next();
         if (!next.done) {
-          // done = true when the end of array reached
-          this.sentence += " " + next.value; // concatenate word to the string
+          this.sentence += " " + next.value; 
         } else {
-          clearInterval(int); // when done - clear interval
+          clearInterval(int);
         }
-      }, 400); // interval duration, 1s
+      }, 400);
     },
   },
   mounted() {
@@ -106,20 +104,17 @@ export default {
 }
 main {
   background-image: url("../utils/dark.jpg");
-  /* position: relative; */
   width: 100vw;
   height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* box-shadow:inset 0 0 0 2000px rgba(15, 1, 9,0.1);   */
 }
 
 .intro h1 {
   font-family: monospace;
-  margin-top: 300px;
+  margin-top: 250px;
   text-align: center;
-  /* margin-left: 130px; */
 }
 .intro h3 {
   line-height: 40px;
@@ -128,8 +123,7 @@ main {
 .route {
   padding-top: 100px;
   margin-left: 20px;
-  margin-top: 150px;
-  /* text-align: center; */
+  margin-top: 50px;
   color: yellow;
   font-size: larger;
 }
