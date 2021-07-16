@@ -22,7 +22,9 @@
               the go on multiple devices – whether that’s a smartphone, tablet,
               laptop, or desktop device.
             </p>
-            <p class="lead">link to <a href="">Quiz me</a></p>
+            <p class="lead">
+              link to <a href="https://quiz--me.herokuapp.com/">Quiz me</a>
+            </p>
           </div>
         </div>
       </div>
@@ -38,14 +40,17 @@
               organised.
             </p>
             <p class="lead">
-              It is known how important communication is hence this super easy and efficient platform.
+              It is known how important communication is hence this super easy
+              and efficient platform.
             </p>
-            <p class="lead">link to <a href="">FEmail</a></p>
+            <p class="lead">
+              link to <a href="https://fe-mail.herokuapp.com/">FEmail</a>
+            </p>
           </div>
 
           <div class="col-sm-12 col-md-6 left">
             <img
-              src="../utils/flowers.jpg"
+              src="../utils/femil.jpeg"
               alt="image from quiz-me app"
               class="img-fluid"
               width="300"
@@ -55,34 +60,33 @@
       </div>
     </section>
 
-       <section>
+    <section>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-6 left">
             <img
-              src="../utils/anjola.jpeg"
+              src="../utils/goshop.png"
               alt="image from quiz-me app"
               class="img-fluid"
-              width="300"
+              width="450"
             />
           </div>
           <div class="col-sm-12 col-md-6 right">
             <p class="lead">
-              Quiz me is a learning resource that gives you free access to over
-              5,000 practice questions to prepare adequately for your UTME,
-              WASSCE and POST-UTME
+              GoShop is an online store dedicated to making your shopping
+              experience stress-free. Get your goods delivered to your door
+              step.
             </p>
+            <p class="lead"></p>
             <p class="lead">
-              The app can be used anytime, anywhere, at home, work, or even on
-              the go on multiple devices – whether that’s a smartphone, tablet,
-              laptop, or desktop device.
+              link to
+              <a href="https://goshopp.netlify.app/">GoShop</a>
             </p>
-            <p class="lead">link to <a href="">Quiz me</a></p>
           </div>
         </div>
       </div>
     </section>
-     <section id="nav">
+    <section id="nav">
       <div class="container">
         <div class="container">
           <div class="row">
@@ -96,15 +100,15 @@
               </div>
               <div class="col">
                 <li>
-                  <router-link class=" route nav-link " to="/home">
-                    Home</router-link
+                  <router-link class="route nav-link" to="/contact">
+                    Contact</router-link
                   >
                 </li>
               </div>
               <div class="col">
                 <li>
-                  <router-link class="route nav-link" to="/contact">
-                    Contact</router-link
+                  <router-link class=" route nav-link " to="/home">
+                    Home</router-link
                   >
                 </li>
               </div>
@@ -144,7 +148,7 @@ a {
   color: yellow;
 }
 .route {
-  margin-left: 40px;
+  margin-left: 20px;
   margin-top: 100px;
   margin-bottom: 50px;
   color: yellow;
@@ -153,7 +157,9 @@ a {
 .route:hover {
   color: white;
 }
-
+a:hover {
+  color: rgb(120, 221, 120);
+}
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .route {

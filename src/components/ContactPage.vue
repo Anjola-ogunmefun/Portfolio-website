@@ -46,7 +46,7 @@
                 class="img-fluid"
                 width="35"
               />
-              <a href="">Twitter</a>
+              <a href="https://twitter.com/OgunmefunAnjola">Twitter</a>
             </span>
           </div>
         </div>
@@ -157,7 +157,7 @@ p {
 }
 
 .route {
-  margin-left: 40px;
+  margin-left: 20px;
   margin-top: 100px;
   margin-bottom: 50px   ;
   color: yellow;

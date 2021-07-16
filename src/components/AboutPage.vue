@@ -15,10 +15,9 @@
           <div class="info container">
             <h5 >
               Immediately after graduating from the university as a Food
-              Scientist, I embarked on the journey to becoming a self taught
-              Front-End Engineer.
+              Scientist, I embarked on my journey into the tech space.
               <br />
-              so far, I have been opportuned to work with great organizations
+              So far, I have been opportuned to work with great organizations
               alongside amazing team members.
             </h5>
             <br>
@@ -29,15 +28,15 @@
             <br>
             <h5>
               As a self motivated young lady I ensure that each day, I wake up
-              better than the previous because everyday is an opportunity to be
-              world class!
+              better than the previous because to me everyday as an opportunity to be
+              world class.
             </h5>
             <br>
           
             <h5>
-              I always find time to exercise, that's one way I get to free my
+              I fint time to exercise often, as that's one way I get to free my
               mind while also keeping fit. I write every now and then although
-              i'm working on making it a habit and getting very good at it.
+              i'm working on making it an habit and getting very good at it.
             </h5>
           </div>
        
@@ -108,9 +107,8 @@ img {
 }
 .route {
   padding-top: 50px;
-  margin-left: 40px;
+  margin-left: 20px;
   margin-bottom: 70px;
-  /* text-align: center; */
   color: yellow;
   font-size: large;
 }

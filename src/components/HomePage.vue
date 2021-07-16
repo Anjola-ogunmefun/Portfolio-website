@@ -117,7 +117,7 @@ main {
 
 .intro h1 {
   font-family: monospace;
-  margin-top: 200px;
+  margin-top: 300px;
   text-align: center;
   /* margin-left: 130px; */
 }
@@ -127,8 +127,8 @@ main {
 }
 .route {
   padding-top: 100px;
-  margin-left: 40px;
-  margin-top: 200px;
+  margin-left: 20px;
+  margin-top: 150px;
   /* text-align: center; */
   color: yellow;
   font-size: larger;
