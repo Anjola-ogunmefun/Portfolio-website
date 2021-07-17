@@ -28,13 +28,14 @@
             <div class="col-4">
               <li>
                 <router-link class="route nav-link left" to="/about">
-                   About </router-link
-                >
+                  About
+                </router-link>
               </li>
             </div>
             <div class="col-4">
               <li>
-                <router-link class="route nav-link" to="/contact">Contact</router-link
+                <router-link class="route nav-link" to="/contact"
+                  >Contact</router-link
                 >
               </li>
             </div>
@@ -97,14 +98,14 @@ main {
   background-image: url("../utils/dark.jpg");
   width: 100vw;
   height: 100vh;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
   background-size: cover;
 }
 
 .intro h1 {
   font-family: monospace;
-  margin-top: 150px;
+  margin-top: 200px;
   text-align: center;
 }
 .intro h3 {
@@ -114,7 +115,7 @@ main {
 .route {
   padding-top: 50px;
   margin-left: 20px;
-  margin-bottom: 70px;
+  margin-top: 250px;
   color: yellow;
   font-size: large;
 }
@@ -125,13 +126,17 @@ main {
 @media only screen and (max-width: 600px) {
   .route {
     margin-left: 0px;
-    margin-bottom: 120px;
+    margin-bottom: 50px;
+    margin-top: 350px;
   }
   main {
     height: 100%;
   }
-  .left{
+  .left {
     margin-left: 20px;
+  }
+  .intro h1 {
+    margin-top: 250px;
   }
 }
 
