@@ -116,6 +116,8 @@ main {
   padding-top: 50px;
   margin-left: 20px;
   margin-top: 250px;
+  margin-bottom: 70px;
+
   color: yellow;
   font-size: large;
 }
