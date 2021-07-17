@@ -75,38 +75,34 @@
           </div>
         </div>
       </div>
-
     </section>
 
-
-      <section id="nav">
+    <section id="nav">
       <div class="container">
-        <div class="container">
-          <div class="row">
-            <ul class="nav nav-fill">
-              <div class="col-4">
-                <li>
-                  <router-link class="route nav-link text-center" to="/about">
-                    About</router-link
-                  >
-                </li>
-              </div>
-              <div class="col-4">
-                <li>
-                  <router-link class=" route nav-link " to="/projects">
-                    Projects</router-link
-                  >
-                </li>
-              </div>
-              <div class="col-4">
-                <li>
-                  <router-link class="route nav-link" to="/home">
-                    Home</router-link
-                  >
-                </li>
-              </div>
-            </ul>
-          </div>
+        <div class="row text-center">
+          <ul class="nav nav-fill">
+            <div class="col-4">
+              <li>
+                <router-link class="route nav-link" to="/about">
+                  About</router-link
+                >
+              </li>
+            </div>
+            <div class="col-4">
+              <li>
+                <router-link class=" route nav-link" to="/projects">
+                  Projects</router-link
+                >
+              </li>
+            </div>
+            <div class="col-4">
+              <li>
+                <router-link class="route nav-link" to="/home">
+                  Home</router-link
+                >
+              </li>
+            </div>
+          </ul>
         </div>
       </div>
     </section>
@@ -148,31 +144,40 @@ p {
   margin-left: 0px;
   text-align: center;
 }
-.mail{
+.mail {
   padding: 20px;
   margin-left: 0px;
   text-align: center;
 }
 
 .route {
+  padding-top: 50px;
   margin-left: 20px;
-  margin-top: 30px;
-  margin-bottom: 50px   ;
+  margin-bottom: 70px;
   color: yellow;
-  font-size: larger;
+  font-size: large;
 }
 .route:hover {
   color: white;
 }
 
+@media only screen and (max-width: 600px) {
+  .route {
+    margin-left: 0px;
+    margin-bottom: 120px;
+  }
+  main {
+    height: 100%;
+  }
+}
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .route {
     margin-left: 70px;
   }
 
-  .info {
-    font-size: larger;
+  .message {
+    margin-top: 150px;
   }
 }
 
@@ -181,19 +186,13 @@ p {
   .route {
     margin-left: 120px;
   }
-  .intro {
-    margin-top: 300px;
-  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .route {
-    margin-left: 200px;
+    margin-left: 100px;
     margin-top: 200px;
-  }
-  .info {
-    padding: 80px;
   }
 }
 </style>

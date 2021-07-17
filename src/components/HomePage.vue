@@ -1,51 +1,44 @@
 <template>
   <main class="main">
-    <section></section>
-
     <section id="content">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="intro">
-              <h1 class="text-white container">
-                Hi! I'm Anjolaoluwa Ogunmefun
-              </h1>
-              <hr class="text-warning" style="height:3px;" />
-              <h3 class="text-white container">{{ sentence }}</h3>
-              <p class="text-white"></p>
-            </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="intro">
+            <h1 class="text-white container">
+              Hi! I'm Anjolaoluwa Ogunmefun
+            </h1>
+            <hr class="text-warning" style="height:3px;" />
+            <h3 class="text-white container">{{ sentence }}</h3>
+            <p class="text-white"></p>
           </div>
         </div>
       </div>
     </section>
     <section id="nav">
       <div class="container">
-        <div class="container">
-          <div class="row">
-            <ul class="nav nav-fill">
-              <div class="col">
-                <li>
-                  <router-link class="route nav-link text-center" to="/about">
-                    About</router-link
-                  >
-                </li>
-              </div>
-              <div class="col">
-                <li>
-                  <router-link class=" route nav-link " to="/projects">
-                    Projects</router-link
-                  >
-                </li>
-              </div>
-              <div class="col">
-                <li>
-                  <router-link class="route nav-link" to="/contact">
-                    Contact</router-link
-                  >
-                </li>
-              </div>
-            </ul>
-          </div>
+        <div class="row text-center">
+          <ul class="nav nav-fill">
+            <div class="col-4">
+              <li>
+                <router-link class=" route nav-link" to="/projects">
+                  Projects</router-link
+                >
+              </li>
+            </div>
+            <div class="col-4">
+              <li>
+                <router-link class="route nav-link left" to="/about">
+                   About </router-link
+                >
+              </li>
+            </div>
+            <div class="col-4">
+              <li>
+                <router-link class="route nav-link" to="/contact">Contact</router-link
+                >
+              </li>
+            </div>
+          </ul>
         </div>
       </div>
     </section>
@@ -85,7 +78,7 @@ export default {
       const int = setInterval(() => {
         const next = it.next();
         if (!next.done) {
-          this.sentence += " " + next.value; 
+          this.sentence += " " + next.value;
         } else {
           clearInterval(int);
         }
@@ -99,10 +92,8 @@ export default {
 </script>
 
 <style scoped>
-.main {
-  font-family: monospace;
-}
 main {
+  font-family: monospace;
   background-image: url("../utils/dark.jpg");
   width: 100vw;
   height: 100vh;
@@ -121,16 +112,27 @@ main {
   text-align: center;
 }
 .route {
-  padding-top: 100px;
+  padding-top: 50px;
   margin-left: 20px;
+  margin-bottom: 70px;
   color: yellow;
-  font-size: larger;
+  font-size: large;
 }
 .route:hover {
   color: white;
 }
 
 @media only screen and (max-width: 600px) {
+  .route {
+    margin-left: 0px;
+    margin-bottom: 120px;
+  }
+  main {
+    height: 100%;
+  }
+  .left{
+    margin-left: 20px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -138,12 +140,15 @@ main {
   .route {
     margin-left: 80px;
   }
+  .intro {
+    margin-top: 300px;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .route {
-    margin-left: 140px;
+    margin-left: 10px;
   }
   .intro {
     margin-top: 300px;
@@ -153,7 +158,8 @@ main {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .route {
-    margin-left: 180px;
+    margin-left: 100px;
+    margin-top: 200px;
   }
 }
 </style>

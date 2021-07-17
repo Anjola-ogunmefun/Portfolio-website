@@ -35,9 +35,8 @@
         <div class="row">
           <div class="col-sm-12 col-md-6 right">
             <p class="lead">
-              FEmail is an web-based messaging platform that avails you the
-              necessary mailing features, helping you to stay connected and
-              organised.
+              FEmail is a messaging platform that avails you the necessary
+              mailing features, helping you to stay connected and organised.
             </p>
             <p class="lead">
               It is known how important communication is hence this super easy
@@ -86,35 +85,34 @@
         </div>
       </div>
     </section>
-    <section id="nav">
+      <section id="nav">
       <div class="container">
-        <div class="container">
-          <div class="row">
+          <div class="row text-center">
             <ul class="nav nav-fill">
-              <div class="col">
+              <div class="col-4">
                 <li>
-                  <router-link class="route nav-link text-center" to="/about">
+                  <router-link class="route nav-link" to="/about">
                     About</router-link
                   >
                 </li>
               </div>
-              <div class="col">
+                 <div class="col-4">
                 <li>
-                  <router-link class="route nav-link" to="/contact">
+                  <router-link class=" route nav-link" to="/contact">
                     Contact</router-link
                   >
                 </li>
               </div>
-              <div class="col">
+                <div class="col-4">
                 <li>
-                  <router-link class=" route nav-link " to="/home">
+                  <router-link class="route nav-link" to="/home">
                     Home</router-link
                   >
                 </li>
               </div>
+           
             </ul>
           </div>
-        </div>
       </div>
     </section>
   </main>
@@ -148,17 +146,26 @@ a {
   color: yellow;
 }
 .route {
+  padding-top: 50px;
   margin-left: 20px;
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
   color: yellow;
-  font-size: larger;
+  font-size: large;
 }
 .route:hover {
   color: white;
 }
 a:hover {
   color: rgb(120, 221, 120);
+}
+@media only screen and (max-width: 600px) {
+  .route {
+    margin-left: 0px;
+    margin-bottom: 100px;
+  }
+  main {
+    height: 100%;
+  }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
