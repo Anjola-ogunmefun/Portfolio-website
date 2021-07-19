@@ -23,6 +23,9 @@
               laptop, or desktop device.
             </p>
             <p class="lead">
+              Technologies used: Vue.js3, VueX, Vue-router, Bootstrap, heroku
+            </p>
+            <p class="lead">
               link to <a href="https://quiz--me.herokuapp.com/">Quiz me</a>
             </p>
           </div>
@@ -41,6 +44,9 @@
             <p class="lead">
               It is known how important communication is hence this super easy
               and efficient platform.
+            </p>
+            <p class="lead">
+              Technologies used: Vue.js3, VueX, Vue-router, TailwindCSS, heroku
             </p>
             <p class="lead">
               link to <a href="https://fe-mail.herokuapp.com/">FEmail</a>
@@ -67,7 +73,7 @@
               src="../utils/goshop.png"
               alt="image from quiz-me app"
               class="img-fluid"
-              width="450"
+              width="400"
             />
           </div>
           <div class="col-sm-12 col-md-6 right">
@@ -76,7 +82,9 @@
               experience stress-free. Get your goods delivered to your door
               step.
             </p>
-            <p class="lead"></p>
+            <p class="lead">
+              Technologies used: Vue.js3, VueX, Bootstrap, Netlify
+            </p>
             <p class="lead">
               link to
               <a href="https://goshopp.netlify.app/">GoShop</a>
@@ -85,34 +93,33 @@
         </div>
       </div>
     </section>
-      <section id="nav">
+    <section id="nav">
       <div class="container">
-          <div class="row text-center">
-            <ul class="nav nav-fill">
-              <div class="col-4">
-                <li>
-                  <router-link class="route nav-link" to="/about">
-                    About</router-link
-                  >
-                </li>
-              </div>
-                 <div class="col-4">
-                <li>
-                  <router-link class=" route nav-link" to="/contact">
-                    Contact</router-link
-                  >
-                </li>
-              </div>
-                <div class="col-4">
-                <li>
-                  <router-link class="route nav-link" to="/home">
-                    Home</router-link
-                  >
-                </li>
-              </div>
-           
-            </ul>
-          </div>
+        <div class="row text-center">
+          <ul class="nav nav-fill">
+            <div class="col-4">
+              <li>
+                <router-link class="route nav-link" to="/about">
+                  About</router-link
+                >
+              </li>
+            </div>
+            <div class="col-4">
+              <li>
+                <router-link class=" route nav-link" to="/contact">
+                  Contact</router-link
+                >
+              </li>
+            </div>
+            <div class="col-4">
+              <li>
+                <router-link class="route nav-link" to="/home">
+                  Home</router-link
+                >
+              </li>
+            </div>
+          </ul>
+        </div>
       </div>
     </section>
   </main>
@@ -120,9 +127,9 @@
 
 <style scoped>
 main {
+  margin: 0px;
   font-family: monospace;
   background-image: url("../utils/dark2.jpg");
-  position: relative;
   width: 100vw;
   height: 100%;
   background-repeat: no-repeat;
@@ -206,7 +213,7 @@ a:hover {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .route {
-    margin-left: 200px;
+    margin-left: 0px;
     margin-top: 200px;
   }
   img {

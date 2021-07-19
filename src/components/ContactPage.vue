@@ -1,5 +1,5 @@
 <template>
-  <main class="main">
+  <main>
     <div class="contact container">
       <div class="message">
         <div class="col">
@@ -110,10 +110,9 @@
 </template>
 
 <style scoped>
-.main {
-  font-family: monospace;
-}
 main {
+  margin: 0px;
+  font-family: monospace;
   background-image: url("../utils/dark.jpg");
   width: 100vw;
   height: 100vh;
@@ -164,7 +163,8 @@ p {
 @media only screen and (max-width: 600px) {
   .route {
     margin-left: 0px;
-    margin-bottom: 120px;
+    margin-top: 100px;
+    margin-bottom: 150px;
   }
   main {
     height: 100%;

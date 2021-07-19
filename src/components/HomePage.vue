@@ -1,48 +1,48 @@
 <template>
-  <main class="main">
-    <section id="content">
-      <div class="row">
-        <div class="col-12">
-          <div class="intro">
-            <h1 class="text-white container">
-              Hi! I'm Anjolaoluwa Ogunmefun
-            </h1>
-            <hr class="text-warning" style="height:3px;" />
-            <h3 class="text-white container">{{ sentence }}</h3>
-            <p class="text-white"></p>
+  <main>
+      <section id="content">
+        <div class="row">
+          <div class="col-12">
+            <div class="intro">
+              <h1 class="text-white container">
+                Hi! I'm Anjolaoluwa Ogunmefun
+              </h1>
+              <hr class="text-warning" style="height:3px;" />
+              <h3 class="text-white container">{{ sentence }}</h3>
+              <p class="text-white"></p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section id="nav">
-      <div class="container">
-        <div class="row text-center">
-          <ul class="nav nav-fill">
-            <div class="col-4">
-              <li>
-                <router-link class=" route nav-link" to="/projects">
-                  Projects</router-link
-                >
-              </li>
-            </div>
-            <div class="col-4">
-              <li>
-                <router-link class="route nav-link left" to="/about">
-                  About
-                </router-link>
-              </li>
-            </div>
-            <div class="col-4">
-              <li>
-                <router-link class="route nav-link" to="/contact"
-                  >Contact</router-link
-                >
-              </li>
-            </div>
-          </ul>
+      </section>
+      <section id="nav">
+        <div class="container">
+          <div class="row text-center">
+            <ul class="nav nav-fill">
+              <div class="col-4">
+                <li>
+                  <router-link class=" route nav-link" to="/projects">
+                    Projects</router-link
+                  >
+                </li>
+              </div>
+              <div class="col-4">
+                <li>
+                  <router-link class="route nav-link left" to="/about">
+                    About
+                  </router-link>
+                </li>
+              </div>
+              <div class="col-4">
+                <li>
+                  <router-link class="route nav-link" to="/contact"
+                    >Contact</router-link
+                  >
+                </li>
+              </div>
+            </ul>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
   </main>
 </template>
 
@@ -83,7 +83,7 @@ export default {
         } else {
           clearInterval(int);
         }
-      }, 400);
+      }, 600);
     },
   },
   mounted() {
@@ -94,6 +94,7 @@ export default {
 
 <style scoped>
 main {
+  margin: 0px;
   font-family: monospace;
   background-image: url("../utils/dark.jpg");
   width: 100vw;
@@ -128,8 +129,8 @@ main {
 @media only screen and (max-width: 600px) {
   .route {
     margin-left: 0px;
-    margin-bottom: 50px;
-    margin-top: 350px;
+    margin-bottom: 250px;
+    margin-top: 200px;
   }
   main {
     height: 100%;
@@ -138,7 +139,7 @@ main {
     margin-left: 20px;
   }
   .intro h1 {
-    margin-top: 250px;
+    margin-top: 350px;
   }
 }
 
