@@ -59,7 +59,8 @@
                 class="img-fluid"
                 width="35"
               />
-              <p>ogunmefunanjola@gmail.com</p>
+              <br>
+              <a href="ogunmefunanjola@gmail.com">ogunmefunanjola@gmail.com</a>
             </span>
           </div>
           <div class="col-sm-12 col-md-6 mail">

@@ -1,19 +1,24 @@
 <template>
   <main>
     <section>
-      <div class="">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="pics">
-              <img
-                src="../utils/anjola.jpeg"
-                alt="profile picture"
-                class="img-fluid container"
-              />
-            </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="pics">
+            <img
+              src="../utils/anjola.jpeg"
+              alt="profile picture"
+              class="img-fluid container"
+            />
           </div>
-          <div class="col-md-12">
-            <div class="info container">
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="info">
               <h5>
                 Immediately after graduating from the university as a Food
                 Scientist, I embarked on my journey into the tech space.
@@ -44,36 +49,36 @@
           </div>
         </div>
       </div>
+    </section>
 
-      <section id="nav">
-        <div class="container">
-          <div class="row text-center">
-            <ul class="nav nav-fill">
-              <div class="col-4">
-                <li>
-                  <router-link class="route nav-link text-center" to="/contact">
-                    Contact</router-link
-                  >
-                </li>
-              </div>
-              <div class="col-4">
-                <li>
-                  <router-link class="route nav-link" to="/home">
-                    Home</router-link
-                  >
-                </li>
-              </div>
-              <div class="col-4">
-                <li>
-                  <router-link class=" route nav-link " to="/projects">
-                    Projects</router-link
-                  >
-                </li>
-              </div>
-            </ul>
-          </div>
+    <section id="nav">
+      <div class="container">
+        <div class="row text-center">
+          <ul class="nav nav-fill">
+            <div class="col-4">
+              <li>
+                <router-link class="route nav-link text-center" to="/contact">
+                  Contact</router-link
+                >
+              </li>
+            </div>
+            <div class="col-4">
+              <li>
+                <router-link class="route nav-link" to="/home">
+                  Home</router-link
+                >
+              </li>
+            </div>
+            <div class="col-4">
+              <li>
+                <router-link class=" route nav-link " to="/projects">
+                  Projects</router-link
+                >
+              </li>
+            </div>
+          </ul>
         </div>
-      </section>
+      </div>
     </section>
   </main>
 </template>
