@@ -23,7 +23,8 @@
               laptop, or desktop device.
             </p>
             <p class="lead">
-              Technologies used: Vue.js3, VueX, Vue-router, Bootstrap, heroku
+              Technologies used: Vue.js3, VueX, Vue-router, Bootstrap, heroku,
+              3rd-party API
             </p>
             <p class="lead">
               link to <a href="https://quiz--me.herokuapp.com/">Quiz me</a>
@@ -46,7 +47,8 @@
               and efficient platform.
             </p>
             <p class="lead">
-              Technologies used: Vue.js3, VueX, Vue-router, TailwindCSS, heroku
+              Technologies used: Vue.js3, VueX, Vue-router, TailwindCSS,
+              Firebase, heroku
             </p>
             <p class="lead">
               link to <a href="https://fe-mail.herokuapp.com/">FEmail</a>
@@ -127,15 +129,15 @@
 
 <style scoped>
 main {
-  margin: 0px;
   font-family: monospace;
   background-image: url("../utils/dark2.jpg");
   width: 100vw;
-  height: 100%;
+  height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   box-shadow: inset 0 0 0 2000px rgba(15, 1, 9, 0.6);
+  overflow-x: hidden;
 }
 .left {
   color: white;

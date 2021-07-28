@@ -94,7 +94,6 @@ export default {
 
 <style scoped>
 main {
-  margin: 0px;
   font-family: monospace;
   background-image: url("../utils/dark.jpg");
   width: 100vw;
@@ -102,6 +101,7 @@ main {
   background-repeat: repeat;
   background-position: center;
   background-size: cover;
+  overflow-x: hidden;
 }
 
 .intro h1 {

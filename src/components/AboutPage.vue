@@ -23,13 +23,13 @@
                 Immediately after graduating from the university as a Food
                 Scientist, I embarked on my journey into the tech space.
                 <br />
-                So far, I have been opportuned to work with great organizations
+                So far, I have been opportune to work with great organizations
                 alongside amazing team members.
               </h5>
               <br />
               <h5>
                 I am passionate about giving life to designs and making software
-                usage as seemless as possible
+                usage as seamless as possible
               </h5>
               <br />
               <h5>
@@ -84,16 +84,17 @@
 </template>
 
 <style scoped>
+
 main {
-  margin: 0px;
   font-family: monospace;
   background-image: url("../utils/dark2.jpg");
   width: 100vw;
-  height: 100%;
+  height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   box-shadow: inset 0 0 0 2000px rgba(15, 1, 9, 0.6);
+  overflow-x: hidden;
 }
 img {
   padding: 30px;

@@ -165,7 +165,7 @@ p {
   .route {
     margin-left: 0px;
     margin-top: 100px;
-    margin-bottom: 150px;
+    margin-bottom: 180px;
   }
   main {
     height: 100%;
